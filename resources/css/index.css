@@ -12,6 +12,7 @@ a {
   border: 5px solid #93ceff;
   padding: 5px;
   margin: 10px;
+  color: #93ceff;
 }
 
 a:visited {
@@ -32,6 +33,30 @@ nav {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.BodyContent2{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.RightContent{
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+}
+
+.LeftContent{
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
 }
 
 .BlueOnBlack {
