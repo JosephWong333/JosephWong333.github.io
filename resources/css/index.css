@@ -1,19 +1,56 @@
 * {
-    font-family: Helvetica, Arial, sans-serif;
-  }
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+p,
+li {
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  border: 5px solid #93ceff;
+  padding: 5px;
+  margin: 10px;
+}
+
+a:visited {
+  color: inherit;
+}
+
+nav {
+  border: 5px solid #93ceff;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.BodyContent{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.BlueOnBlack {
+  border: 5px solid #93ceff;
+  padding: 10px;
+  background-color: black;
+  color: #93ceff;
   
+}
+
+.BlackOnBlue {
+  border: 5px solid black;
+  padding: 10px;
+  background-color: #93ceff;
+  color: black;
   
-  h1 {
-    color: SeaGreen;
-  }
-  
-  
-  p, 
-  li {
-    font-size: 18px;
-  }
-  
-  
-  a {
-    text-decoration: none;
-  }
+}
+
+#RobotGif {
+  /* Add your styles for the RobotGif element here */
+  width: 50%;
+}
