@@ -43,22 +43,6 @@ nav {
   flex-direction: row;
 }
 
-.RightContent{
-  padding: 10px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  flex-direction: row;
-}
-
-.LeftContent{
-  padding: 10px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: row;
-}
-
 .BlueOnBlack {
   border: 5px solid #93ceff;
   padding: 10px;
@@ -79,3 +63,55 @@ nav {
   /* Add your styles for the RobotGif element here */
   width: 50%;
 }
+
+/* ... */
+
+.timeline {
+  position: relative;
+  width: 100%;
+  padding: 20px;
+}
+
+.timeline-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.timeline-item.right-content {
+  justify-content: flex-end;
+}
+
+.timeline-icon {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  background-color: #93ceff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+.timeline-icon img {
+  width: 70%;
+  height: auto;
+}
+
+.timeline-content h2 {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.timeline-content p {
+  font-size: 0.9rem;
+  color: #bbbbbb;
+}
+
+#addBorder{
+  border: 5px solid;
+  padding: 10px;
+}
+
