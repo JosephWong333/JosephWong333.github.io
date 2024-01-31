@@ -9,6 +9,10 @@ li {
   font-size: 15px;
 }
 
+h1{
+  font-size: 20px;
+}
+
 a {
   text-decoration: none;
   border: 5px solid #93ceff;
@@ -27,6 +31,15 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 768px) {
+  h1{
+    font-size: 13px;
+  }
+  a{
+    font-size: 13px;
+  }
 }
 
 .BodyContent{
