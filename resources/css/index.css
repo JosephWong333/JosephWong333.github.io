@@ -139,3 +139,23 @@ nav {
   padding: 10px;
 }
 
+.BubbleContainer {
+  position: relative;
+  width: 300px; /* Adjust as needed */
+  height: 300px; /* Adjust as needed */
+}
+
+.BubbleImage, .BubbleText {
+  position: absolute;
+  width: 100%;
+  height: 80%;
+}
+
+.BubbleText {
+  width: 50%;
+  height: 90%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
