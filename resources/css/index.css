@@ -107,6 +107,8 @@ nav {
 
 .timeline-item.right-content {
   justify-content: flex-end;
+  flex-direction: row-reverse;
+  text-align: right;
 }
 
 .timeline-icon {
@@ -119,11 +121,13 @@ nav {
   align-items: center;
   justify-content: center;
   margin-right: 15px;
+
 }
 
 .timeline-icon img {
-  width: 70%;
-  height: auto;
+  min-width: 70%;
+  height: 70%;
+  padding: 8px;
 }
 
 .timeline-content h2 {
