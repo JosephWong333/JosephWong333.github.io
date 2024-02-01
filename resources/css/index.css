@@ -170,3 +170,8 @@ nav {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
+.centered-image {
+  display: block;
+  text-align: center;
+}
