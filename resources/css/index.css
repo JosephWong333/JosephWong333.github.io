@@ -17,6 +17,11 @@ a {
   color: #93ceff;
 }
 
+a:hover {
+  background-color: #506f88;
+  color: black;
+}
+
 #noBorder a {
   border: none;
 }
@@ -193,7 +198,7 @@ nav {
   text-align: center;
 }
 
-.element {
+.GreenGlow {
   background-color: green;
   padding: 10px;
   color: white;
