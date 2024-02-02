@@ -75,7 +75,7 @@ nav {
   padding: 10px;
   background-color: black;
   color: #93ceff;
-  
+  padding-bottom: 25px;
 }
 
 .BlackOnBlue {
@@ -83,7 +83,7 @@ nav {
   padding: 10px;
   background-color: #93ceff;
   color: black;
-  
+  padding-bottom: 25px;
 }
 
 #RobotGif {
@@ -191,4 +191,30 @@ nav {
 .centered-image {
   display: block;
   text-align: center;
+}
+
+.element {
+  background-color: green;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 5px;
+  animation: glow 2s ease-in-out infinite;
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 15px #00ff00, 0 0 20px #00ff00;
+  }
+  50% {
+    box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00;
+  }
+  100% {
+    box-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 15px #00ff00, 0 0 20px #00ff00;
+  }
+}
+
+#BiggerFontSize{
+  font-size: 30px;
 }
