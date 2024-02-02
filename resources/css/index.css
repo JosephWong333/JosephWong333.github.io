@@ -42,12 +42,12 @@ nav {
   align-items: center;
 }
 
-@media (max-width: 768px) {
-  h1{
-    font-size: 13px;
+@media (max-width: 800px) {
+  h1#dynamic{
+    font-size: 10px;
   }
   a{
-    font-size: 13px;
+    font-size: 10px;
   }
 }
 
